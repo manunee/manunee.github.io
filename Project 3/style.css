@@ -1,0 +1,165 @@
+/* Desktop View */
+body 
+{
+    margin: 0%;
+    background-color:#EBEBEB;
+ }
+.container
+{
+   min-height: 500px;
+   max-width: 1024px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-top: 100px;
+}
+.h-cont
+{
+    background-color: rgb(90, 94, 94);
+    min-height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+header
+{
+    background-color: rgb(90, 94, 94);
+    min-height: 60px;           
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mybutton
+{
+    color:white;
+    font:'Merriweather' ,serif;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;   
+    text-decoration: none;
+    font-size: 1rem;
+}
+.a p
+{
+
+    
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav
+{
+   
+    font:'Merriweather' ,serif;
+}
+p
+{
+    font-size: 0.8rem;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+.col
+{
+    width: 30%;
+    margin-bottom: 40px;
+    background-color: rgb(18, 219, 152);
+}
+.hidedesktop
+{
+    display: none;
+}
+.col img
+{
+    width: 100%;
+    height: auto;
+}
+.col p
+{   
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding:20px;
+    font-size: 1rem;
+    
+}
+.col p::first-line
+{
+    font-weight: 700;
+   
+}
+.mob-wrapper
+{
+   display: none;
+}
+
+
+
+
+
+
+/* Tablet View */
+@media(max-width:768px)
+{
+   .col {width: 47%;} 
+    .hidedesktop{display:block;}
+    nav{display:block;}
+    /* header {
+        display:flex;
+        text-align: center;
+       
+    } */
+    nav a {
+        display: block;    
+        
+    }
+    .a p
+    {
+        padding: 40px 0;
+    }
+    .h-cont
+    {
+        position: relative;
+        
+    }
+    .container
+    {
+        padding-top: 40px
+    }
+    nav
+    {
+        display:none;
+    }
+    .mob-wrapper
+    {
+        display: block;
+        margin-left: -20px;
+    }
+    .nav-wrap
+    {
+        display:none;
+        position: absolute;
+    }
+    .button
+    {
+        display: block;
+        background-color: rgb(18, 219, 152);
+        padding: 15px 30px;
+        margin-left: -60px;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        border-radius: 4px;
+    }
+
+}
+
+/* Mobile View */
+@media(max-width:400px)
+{
+   .col{ width: 100%;}
+    .hidemobile{display: none;}
+   
+}
+   
