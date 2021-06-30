@@ -1,0 +1,233 @@
+html
+{
+    background-image: linear-gradient(#FC5E55 ,#e3707b, #FA4083);
+}
+body
+{
+    background-image: url(images/image-lion-background.png);
+    font-size: 1.125rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: top;
+  
+    
+}
+.container
+{
+    padding-top: 30px;
+    min-height: 300px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header
+{
+    min-height: 100px;
+    display:flex;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 1px;
+}
+main
+{
+    min-height: 300px;
+    display:flex;
+    align-items: center;
+}
+.main2
+{
+    margin-bottom: 40px;
+    min-height: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 3px 5px 1px rgba(0, 0, 0, 0.397);
+    padding: 20px;
+
+}
+.cards
+{
+    display: flex;
+  justify-content:space-between;
+  margin-bottom: 50px;
+}
+.card1
+{
+    background-image:url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    padding:10px 30px 20px 30px;
+    box-sizing: border-box;
+}    
+.card2
+{
+    background-image:url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: center;
+     min-height: 250px;
+     width: 30%;
+     padding:10px 30px 20px 30px;
+     box-sizing: border-box;
+}
+.card3
+{
+    background-image:url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    padding:10px 30px 20px 30px;
+    box-sizing: border-box;
+ }
+ .herobox1
+ {
+     flex: 2;
+ }
+ .herobox2
+{
+    flex: 1;
+}
+.a
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: 2;
+}
+nav
+{
+    text-align: right;
+    flex:1;
+ 
+}
+h1
+{
+    font-family: 'Playfair Display' ,serif;
+    font-size: 3.25rem;
+    padding-bottom: 1.3rem;
+    text-shadow: 3px 5px 3px rgba(0, 0, 0, 0.199);
+}
+p
+{
+    font-family: 'Roboto' ,serif;
+    line-height: 1.75rem;
+    padding-right: 40px;
+    padding-bottom: 0.5rem;
+}
+h2
+{
+    font-family:'Playfair Display' ,serif ;
+    font-size: 2.25rem;
+    padding-top: 10px;
+    text-align: center;
+}
+h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.60rem;
+    padding-top: 15px;
+    text-align: center;
+    font-style: italic;
+}
+.cards p
+{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cards i
+{
+    font-size: 100px;
+    padding-left: 72.5px;
+    padding-top: 10px;
+   
+}
+a
+{
+   color: white; 
+   text-decoration-line: none;
+}
+a.buttons
+{  background-color: white;
+    color:#FA4083 ;
+    font:'Playfair Display' ,serif;
+    padding: 11px 25px;
+    display: inline-block;
+    box-shadow: 3px 5px 1px rgba(0, 0, 0, 0.397);
+}
+a.mybutton
+{
+    color:white;
+    font:'Playfair Display' ,serif;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;   
+}
+.testimonials
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tbox
+{
+    width: 47%;
+    padding: 30px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.navbutton
+{
+    position: relative;
+    display: inline-block;
+   
+}
+.dropdown
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    min-width: 160px;
+    z-index: 99;
+  
+}
+.dropdown a
+{
+    color:#FA4083 ;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #FA4083  ;
+}
+.navbutton:hover .dropdown
+{
+    display: block;
+}
+.dropdown a:hover
+{
+    color: rgba(112, 15, 202, 0.815);
+    transition-delay: 5;
+    text-decoration-line: underline;
+}
+.centre1
+{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+.extra
+{
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column; 
+}
